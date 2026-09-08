@@ -1,0 +1,11 @@
+# 运行时本地数据（隐藏列表与开关状态），不应进入仓库
+data.json
+
+# 备份文件
+*.backup
+*.bak
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,10 @@
+{
+	"id": "folder-hider",
+	"name": "Folder Hider",
+	"version": "1.0.1",
+	"minAppVersion": "1.5.0",
+	"description": "一键隐藏/显示文件浏览器中的指定文件夹；右键文件夹即可加入或移除隐藏列表。",
+	"author": "SteIasK",
+	"authorUrl": "https://github.com/SteIasK",
+	"isDesktopOnly": false
+}
