@@ -62,22 +62,6 @@ Obsidian 1.x 中 `data-path` 属性位于内层标题行 `.nav-folder-title` 上
 - 仅作用于**核心文件浏览器**（官方 Files 视图）。若使用 Notebook Navigator 等第三方文件面板，请使用其自带的隐藏设置，两者互不干扰
 - 隐藏仅是显示层效果：Quick Switcher、搜索、链接跳转仍可访问这些路径（这是刻意设计，保证插件"零侵入"）
 
-## 开发维护
-
-无构建步骤：`main.js` 为纯 JavaScript（CommonJS，`require("obsidian")`），修改后：
-
-1. 在 Obsidian 中 Ctrl+P 运行 `重新加载应用（不保存）`（Reload app without saving），或关闭再打开插件开关
-2. 版本号变更需同步修改 `manifest.json` 与 `versions.json`
-
-发布新版本流程（BRAT 用户自动/手动拉取即可收到）：
-
-```bash
-# 仓库根 = 本目录（manifest.json、main.js 必须在根目录，BRAT 才能识别）
-git add . && git commit -m "release: x.y.z"
-git push
-# 可选：打 tag 并附 manifest.json / main.js / styles.css(如有) 为 Release 附件
-```
-
 ## 许可证
 
 [MIT](LICENSE)
